@@ -1,0 +1,81 @@
+html{
+  font-size: 16px;
+  margin: -10px;
+}
+
+body{
+  background-color: white;
+  font-family: 'Open Sans Condensed', sans-serif;
+
+}
+
+p{
+  min-width: 200px;
+  min-height: 200px;
+}
+
+h2{
+  font-size: 1.5rem;
+  text-align: center;
+  letter-spacing: 10px;
+}
+
+
+.image-container{
+  overflow: hidden;
+  margin: auto;
+}
+
+.image-container img{
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: auto;
+}
+
+#banner{
+  background-size: cover;
+  background-image: url("images/villalba.png");
+  background-position: center;
+  background-image:blur(5px);
+  height: 46rem;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 0;
+  letter-spacing: 35px;
+
+}
+
+#banner h1{
+  font-weight: 300;
+  color: white;
+  font-size: 5.75rem;
+  border-bottom: 1px solid white;
+  padding-bottom: 5px;
+}
+
+/*Blog Post*/
+#blog {
+  width: 86%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#blog .post {
+  width: 52%;
+  margin-top: 10.5%;
+  margin-bottom: 5.5%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-weight: 300;
+  font-size: 1rem;
+  text-align: center;
+  line-height: 1.8;
+  color: #444444;
+}
