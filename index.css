@@ -15,7 +15,7 @@ p{
 }
 
 h2{
-  font-size: 1.5rem;
+  font-size: 2rem;
   text-align: center;
   letter-spacing: 10px;
 }
@@ -55,6 +55,7 @@ h2{
   font-size: 5.75rem;
   border-bottom: 1px solid white;
   padding-bottom: 5px;
+  text-align: center;
 }
 
 /*Blog Post*/
@@ -96,6 +97,7 @@ h2{
 .navbar-default .navbar-nav>li>a{
   color: white;
   font-size: 23px;
+  text-align: center;
 }
 
 .navbar-default .navbar-nav>li>a:hover{
@@ -112,4 +114,49 @@ h2{
 .navbar-default .navbar-brand:hover{
   color: #263238;
   background-color: white;
+}
+
+@media only screen and (min-width: 150px) and (max-width:480px) and (orientation: portrait){
+  h2{
+    min-width: 230px;
+  }
+
+  p{
+    min-width: 250px;
+  }
+  .image-container img {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: auto;
+    width: max-content;
+}
+
+  #banner h1{
+    font-weight: 300;
+    color: white;
+    font-size: 2rem;
+    border-bottom: 1px solid white;
+    padding-bottom: 5px;
+    text-align: center;
+    margin-left: 1%;
+  }
+
+  #banner{
+    /*background-size:cover;*/
+    background-image: url("images/villalba.png");
+    background-position: center;
+    background-size: cover;
+    background-image:blur(5px);
+    height: 30rem;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 0;
+    letter-spacing: 35px;
+  }
 }
